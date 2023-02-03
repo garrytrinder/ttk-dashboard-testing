@@ -16,6 +16,7 @@ import SampleDashboard from "./views/dashboards/SampleDashboard";
 import Privacy from "./views/Privacy";
 import TabConfig from "./views/TabConfig";
 import TermsOfUse from "./views/TermsOfUse";
+import YourDashboard from "./views/dashboards/YourDashboard";
 
 /**
  * The main app which handles the initialization and routing
@@ -53,6 +54,7 @@ export default function App() {
               <Route exact path="/termsofuse" component={TermsOfUse} />
               <Route exact path="/tab" component={SampleDashboard} />
               <Route exact path="/config" component={TabConfig} />
+              <Route exact path="/yourdashboard" component={YourDashboard} />
             </>
           )}
         </Router>
